@@ -1,6 +1,6 @@
 import torch
 
-from torch.nn._functions.rnn import LSTMCell, RNNReLUCell, RNNTanhCell, GRUCell
+from torch.nn._functions.rnn import LSTMCell, RNNReLUCell, RNNTanhCell, GRUCell   #this line is saying 
 
 from .RNNBackend import bidirectionalRNN, stackedRNN, RNNCell
 from .cells import mLSTMRNNCell, mLSTMCell
